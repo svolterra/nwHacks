@@ -38,7 +38,7 @@ public class MyFrame extends JFrame {
     //EFFECTS: initializes motivation label and adds it to frame
     private void initMotivationLabel() {
         motivationLabel = new JLabel("", SwingConstants.CENTER);
-        motivationLabel.setBounds(0, -25, 640, 200);
+        motivationLabel.setBounds(0, -22, 640, 200);
         add(motivationLabel);
     }
 
